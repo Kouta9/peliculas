@@ -33,7 +33,7 @@ function mostrarPeliculas() {
         li.className = 'pelicula'; 
         li.innerHTML = `
             <img src="${pelicula.imagen}" alt="${pelicula.nombre}">
-            <span>${pelicula.nombre} (${pelicula.categoria})</span>
+            <span id="text_pelis">${pelicula.nombre} (${pelicula.categoria})</span>
             <button class="editar" onclick="editarPelicula(${index})">Edit</button>
             <button class="eliminar" onclick="eliminarPelicula(${index})">Delete</button>
         `;

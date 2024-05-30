@@ -1,29 +1,43 @@
 body {
     font-family: sans-serif;
     margin: 20px;
+    background-image: url('./fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cubre todo el elemento */
+    background-attachment: fixed; /* Evita que la imagen se desplace al hacer scroll */
+    background-position: center; /* Centra la imagen */
 }
-
+#titulo_principal{
+    text-align: center;
+}
 #formulario, #listaPeliculas {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    
     border-radius: 5px;
+}
+#nombrePelicula{
+    margin-left: 400px;
 }
 
 #formulario h2, #listaPeliculas h2 {
     text-align: center;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 #peliculas {
     list-style: none;
     padding: 0;
 }
-
+#text_pelis{
+    color: #ccc;
+}
 #peliculas .pelicula {
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
