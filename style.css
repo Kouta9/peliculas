@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+#formulario, #listaPeliculas {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario h2, #listaPeliculas h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#peliculas {
+    list-style: none;
+    padding: 0;
+}
+
+#peliculas .pelicula {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#peliculas .pelicula img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#peliculas .pelicula button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editar {
+    background-color: #007bff;
+    color: white;
+}
+
+.eliminar {
+    background-color: #dc3545;
+    color: white;
+}
+
+#formularioEdicion {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formularioEdicion h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
